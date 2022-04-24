@@ -143,7 +143,6 @@ namespace HomeWork2
             double y = Convert.ToDouble(Console.ReadLine());
             Console.Write("Введите номер операции:\n1-Сложение\n2-Вычитание\n3-Умножение\n4-Деление\n");
             byte op = byte.Parse(Console.ReadLine());
-            Console.WriteLine("");
             switch (op)
             {
                 case 1: Console.WriteLine($"Производиться операция сложения: {x}+{y}={x + y}"); break;
